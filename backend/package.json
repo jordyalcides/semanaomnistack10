@@ -4,14 +4,29 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "node app.js",
     "sup": "nodemon src/index.js"
   },
+
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+  "url": ""
+  },
+  "homepage": "",
+
   "dependencies": {
     "axios": "^0.21.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.10.15"
   },
+  
   "devDependencies": {
     "nodemon": "^2.0.6"
   }
